@@ -10,7 +10,7 @@ Este repositório contém implementações práticas de conceitos fundamentais d
 
 Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descrição de cada um:
 
-### 📦 `project0 - Degrees`
+### 📦 `01_degrees`
 
 - **Objetivo:** Encontrar o grau de separação entre dois atores com base em filmes compartilhados.
 - **Conceitos aplicados:** Busca em grafos (BFS), estrutura de dados (fila, conjunto), representação de conhecimento.
@@ -24,7 +24,7 @@ Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descri�
 
 ---
 
-### 📦 `project1 - Tic Tac Toe`
+### 📦 `02_tic_tac_toe`
 
 - **Objetivo:** Implementar um agente inteligente que joga Jogo da Velha (Tic-Tac-Toe).
 - **Conceitos aplicados:** Teoria dos jogos, Minimax, árvore de decisão.

@@ -17,7 +17,7 @@ Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descri�
 - **Entrada esperada:** Nome de duas pessoas.
 - **Saída:** Caminho mais curto de filmes conectando os dois atores.
 - **Requisitos:** O projeto exigiu Python 3.12. como versão máxima.
-- **Como executar:** Entre na pasta degrees (`cd degrees`) e execute `python degrees.py`.
+- **Como executar:** Entre na pasta degrees (`cd 01_degrees`) e execute `python degrees.py`.
 - **Demonstração:**
   
 ![Exemplo de execução](img/degrees.png)

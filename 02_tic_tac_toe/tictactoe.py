@@ -60,13 +60,16 @@ def result(board, action):
     """
     Returns the board that results from making move (i, j) on the board.
     """
-    if(board[action[0]][action[1]] == EMPTY):
-        curr_player = player(board)
-        board_copy = copy.deepcopy(board)
-        board_copy[action[0]][action[1]] = curr_player
-        return board_copy
+    if not (0 <= action[0] <= 2 and 0 <= action[1] <= 2):
+        raise Exception("Action is out of bounds")
+    
     if board[action[0]][action[1]] != EMPTY:
         raise Exception("Action not possible")
+    
+    curr_player = player(board)
+    board_copy = copy.deepcopy(board)
+    board_copy[action[0]][action[1]] = curr_player
+    return board_copy
 
 
 def winner(board):

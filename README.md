@@ -36,11 +36,25 @@ Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descri�
 
 ---
 
+### 📦 `03_knights`
+
+- **Objetivo:** Resolver o problema do cavaleiro lógico (Knights and Knaves) usando lógica proposicional.
+- **Conceitos aplicados:** Modelagem de conhecimento, inferência lógica, model_checking.
+- **Saída:** Quem é o cavaleiro (Knight) e o vilão (Knave) com base no conhecimento da IA.
+- **Requisitos:** O projeto exigiu Python 3.12. como versão máxima.
+- **Como executar:** Entre na pasta 03_knights (`cd 03_knights`) e execute `python puzzle.py`.
+- **Demonstração:**
+  
+![Exemplo de execução](img/knights_0.png)
+![Exemplo de execução](img/knights_1.png)
+
+---
+
 ## 🧠 Conceitos aprendidos
 
 - Representação e busca em grafos
-- Modelagem lógica e inferência
 - Algoritmos de jogos (Minimax)
+- Modelagem lógica e inferência
 
 ---
 

@@ -16,7 +16,6 @@ Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descri�
 - **Conceitos aplicados:** Busca em grafos (BFS), estrutura de dados (fila, conjunto), representação de conhecimento.
 - **Entrada esperada:** Nome de duas pessoas.
 - **Saída:** Caminho mais curto de filmes conectando os dois atores.
-- **Requisitos:** O projeto exigiu Python 3.12. como versão máxima.
 - **Como executar:** Entre na pasta 01_degrees (`cd 01_degrees`) e execute `python degrees.py`.
 - **Demonstração:**
   
@@ -28,7 +27,7 @@ Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descri�
 
 - **Objetivo:** Implementar um agente inteligente que joga Jogo da Velha (Tic-Tac-Toe).
 - **Conceitos aplicados:** Minimax, árvore de decisão.
-- **Destaques:** O agente nunca perde (ou empata ou vence).
+- **Observações:** O agente nunca perde (ou empata ou vence).
 - **Como executar:** Entre na pasta 02_tic_tac_toe (`cd 02_tic_tac_toe`) e execute `python runner.py`.
 - **Demonstração:**
   
@@ -41,12 +40,23 @@ Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descri�
 - **Objetivo:** Resolver o problema do cavaleiro lógico (Knights and Knaves) usando lógica proposicional.
 - **Conceitos aplicados:** Modelagem de conhecimento, inferência lógica, model_checking.
 - **Saída:** Quem é o cavaleiro (Knight) e o vilão (Knave) com base no conhecimento da IA.
-- **Requisitos:** O projeto exigiu Python 3.12. como versão máxima.
 - **Como executar:** Entre na pasta 03_knights (`cd 03_knights`) e execute `python puzzle.py`.
 - **Demonstração:**
   
 ![Exemplo de execução](img/knights_0.png)
 ![Exemplo de execução](img/knights_1.png)
+
+---
+
+### 📦 `04_minesweeper`
+
+- **Objetivo:** Criar um agente para jogar campo minado.
+- **Conceitos aplicados:** Inferência lógica, probabilidade, raciocínio baseado em regras.
+- **Observações:** O agente nem sempre tem conhecimento de um caminho seguro. No terminal, é dito se ele tinha esse conhecimento ou fez um chute.
+- **Como executar:** Entre na pasta 04_minesweeper (`cd 04_minesweeper`) e execute `python runner.py`.
+- **Demonstração:**
+  
+![Exemplo de execução](img/minesweeper.png)
 
 ---
 
@@ -60,7 +70,9 @@ Cada pasta corresponde a um projeto desenvolvido no curso. Veja abaixo a descri�
 
 ## 🛠️ Requisitos
 
-- Algumas pastas podem conter um `requirements.txt`
+- O curso exige o uso do Python 3.12 como versão máxima, portanto não é garantido que todos os projetos funcionem acima dessa versão.
+
+- Algumas pastas podem conter um `requirements.txt`. Verifique se esse arquivo existe antes de testar um projeto.
 
 Para instalar dependências (caso existam):
 
